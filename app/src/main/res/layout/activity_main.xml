@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40sp"
+        android:autofillHints=""
+        android:text="@string/email"
+        android:textAlignment="textStart"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40sp"
+        android:autofillHints=""
+        android:text="@string/nom"
+        android:textAlignment="textStart"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:width="300sp"
+        android:height="60sp"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/voir_base"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:width="300sp"
+        android:height="60sp"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/ajouter_a_la_base"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40sp"
+        android:autofillHints=""
+        android:inputType="phone"
+        android:text="@string/telephone"
+        android:textAlignment="textStart"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,TextViewEdits"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="20"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/Nom"
+        android:textSize="24sp"
+        tools:ignore="DuplicateSpeakableTextCheck,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/editmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="20"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:text="@string/mail"
+        android:textSize="24sp"
+        tools:ignore="DuplicateSpeakableTextCheck,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="20"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:text="@string/_00_000_000"
+        android:textSize="24sp"
+        tools:ignore="DuplicateSpeakableTextCheck,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
